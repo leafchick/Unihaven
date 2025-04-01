@@ -1,0 +1,54 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django migrations
+*/migrations/
+*/migrations/*
+
+# Django static files
+static/
+
+# Django media files (user-uploaded content)
+media/
+
+# .env file for sensitive information like keys and credentials
+.env
+*.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# pyenv version files
+.python-version
+
+# pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# coverage reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Django settings for production
+settings_production.py
