@@ -34,10 +34,11 @@ This project is a web application for managing accommodation searches, reservati
    - Uses MySQL8 for local testing; no production-ready database setup.  
    - Lacks realistic sample data and data entry interfaces.  
 
-3. **Missing Features**  
+3. **Missing Features**
+   - No rate function for customers
+   - No notifications for reservations and cancellations.
    - No user registration/login system (assumes pre-authenticated users).  
    - No payment gateway integration (reservations are mock-ups).  
-
 ---
 
 ## Setup Instructions
